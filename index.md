@@ -1,13 +1,11 @@
 ---
-layout: home
-title: FPGA VGA Driver Project
-tags: fpga vga verilog
-categories: demo
+Layout: home
+Title: FPGA VGA Driver Project
+Tags: fpga vga verilog
+Categories: demo
 ---
-
-Add a short welcome message or introduction here. Aim to get the viewer interested in what follows! Guideline: 1 or 2 sentences. 
-
-I am adding a test sentence here at 13:24 on 03/12/24.
+Hello my name is Alvin Olayemi im a third year software and electronic student and this is my soc 
+(System on Chip Verification) project for my soc module.
 
 ## **Template VGA Design**
 ### **Project Set-Up**
