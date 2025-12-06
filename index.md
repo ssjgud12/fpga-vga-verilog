@@ -9,9 +9,10 @@ Hello my name is Alvin Olayemi im a third year software and electronic student a
 
 ## **Template VGA Design**
 ### **Project Set-Up**
-Summarise the project set-up and design flow. Include a screenshot of your own set-up, for example see the image of my Project Summary window below. Guideline 1 short paragraph.
+In Vivado I added Testbench,ColourStripes,Bassy3_Master.xdc file to my project, these files were given by our Lecturer to Serve as a starting point in the project. The first step was fixing the code in Testbench which still used the previous example code (ColourCycle), update that adding a 25Mhz clock signal run synthesis and implementation.
 
-<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSum.png">
+
+<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/Screenshot2025-12-02143608.png">
 ### **Template Code**
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
 ### **Simulation**
