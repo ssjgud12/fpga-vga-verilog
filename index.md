@@ -16,10 +16,10 @@ In Vivado I added Testbench,ColourStripes,Bassy3_Master.xdc file to my project, 
 
 
 ### **Template Code**
-Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
-I was given two template Verilog code ColourStripes and ColourCycle,
 
-I have a screenshot of what ColourStripes outputs from the board but i forgot to get one for colourcycle,Colourstripes creates 8 colours 8 rows of colours that take up the whole monitor by expanding and changing the colours used in stripes I was able to create the flag of my choice. The VGA interface operates by generating precise sync pulses along with rgb colour signals, the pixels are scanned from left to right and from top to bottom asserting hsync at the end of each line and vsync at the end of each frame
+I was given two template Verilog code ColourStripes and ColourCycle, I have a screenshot of what ColourStripes outputs from the board but i forgot to get one for colourcycle,Colourstripes creates 8 colours 8 rows of colours that take up the whole monitor by expanding and changing the colours used in stripes I was able to create the flag of my choice.
+
+The VGA interface operates by generating precise sync pulses along with rgb colour signals, the pixels are scanned from left to right and from top to bottom asserting hsync at the end of each line and vsync at the end of each frame
 
 ### **Demonstration**
 <img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125941.png">
@@ -32,7 +32,7 @@ In ColourStripes the example code given to us it seperated 8 colours into 8 equa
 
 
 ### **Code Adaptation**
-Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
+
 
 To change the template code to display a different image first i messed around with the size and colour, the amount of space being taken up by a colour was determined by this line of code
 
@@ -69,8 +69,6 @@ The simulation is run by execuiting a testbench that drives clk,rst then looking
 
 
 ### **Demonstration**
-If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
-
 <img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125903.png">
 <img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125918.png">
 <img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125925.png">
