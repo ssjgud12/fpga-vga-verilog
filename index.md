@@ -26,6 +26,8 @@ Perhaps add a picture of your demo. Guideline: 1/2 sentences.
 
 <img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125903.png">
 <img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125918.png">
+<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125925.png">
+
 
 
 ## **My VGA Design Edit**
