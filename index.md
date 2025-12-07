@@ -14,6 +14,7 @@ In Vivado I added Testbench,ColourStripes,Bassy3_Master.xdc file to my project, 
 <img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/Screenshot%202025-12-02%20143608.png">
 
 
+
 ### **Template Code**
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
 ### **Simulation**
