@@ -15,23 +15,22 @@ In Vivado I added Testbench,ColourStripes,Bassy3_Master.xdc file to my project, 
 
 
 
+
 ### **Template Code**
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
 ### **Simulation**
 Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs. 
-The simulation is run by execuiting a testbench that drives clk,rst then looking at signals,in simulation the horizontal and vertical sync (hsync,vsync) remain stable while row[10:0],col[10:0] The signals also show vid_on active during the high display region and rgb outputs changing only when the current pixel is inside the visible area.
 
 
-<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-02 143329.png">
+
+
    
 ### **Synthesis**
 Describe the synthesis and implementation processes. Consider including 1/2 useful screenshot(s). Guideline: 1/2 short paragraphs.
 ### **Demonstration**
 Perhaps add a picture of your demo. Guideline: 1/2 sentences.
 
-<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125903.png">
-<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125918.png">
-<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125925.png">
+
 
 
 
@@ -68,10 +67,24 @@ And with the other line i wanted it to take up the rest of the space on the moni
 
 ### **Simulation**
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
+
+The simulation is run by execuiting a testbench that drives clk,rst then looking at signals,in simulation the horizontal and vertical sync (hsync,vsync) remain stable while row[10:0],col[10:0] The signals also show vid_on active during the high display region and rgb outputs changing only when the current pixel is inside the visible area.
+
+
+<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-02 143329.png">
+
+
 ### **Synthesis**
 Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
+
+
 ### **Demonstration**
 If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
+
+<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125903.png">
+<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125918.png">
+<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125925.png">
+
 
 ## **More Markdown Basics**
 This is a paragraph. Add an empty line to start a new paragraph.
