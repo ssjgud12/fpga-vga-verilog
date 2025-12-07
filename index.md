@@ -19,6 +19,7 @@ In Vivado I added Testbench,ColourStripes,Bassy3_Master.xdc file to my project, 
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
 ### **Simulation**
 Explain the simulation process. Reference any important details, include a well-selected screenshot of the simulation. Guideline: 1/2 short paragraphs. 
+The simulation is run by execuiting a testbench that drives clk,rst then looking at signals,in simulation the horizontal and vertical sync (hsync,vsync) remain stable while row[10:0],col[10:0] The signals also show vid_on active during the high display region and rgb outputs changing only when the current pixel is inside the visible area.
 
 
 <img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-02 143329.png">
