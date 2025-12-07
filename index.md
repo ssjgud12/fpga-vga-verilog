@@ -24,10 +24,14 @@ Describe the synthesis and implementation processes. Consider including 1/2 usef
 ### **Demonstration**
 Perhaps add a picture of your demo. Guideline: 1/2 sentences.
 
+<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125903.png">
+<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125918.png">
+
+
 ## **My VGA Design Edit**
 In ColourStripes the example code given to us it seperated 8 colours into 8 equal lines spreading across the monitor, with each colour taking up about 80 pixels so i thought if i could change the colour to whatever one i want and increase the amount of pixels used for each coloured i would be able to draw a flag.
 
-<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125941.png">
+
 
 ### **Code Adaptation**
 Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
