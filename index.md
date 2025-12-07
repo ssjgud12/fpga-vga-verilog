@@ -27,6 +27,8 @@ Perhaps add a picture of your demo. Guideline: 1/2 sentences.
 ## **My VGA Design Edit**
 Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
 <img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot%202025-12-02%20143608.png">
+In ColourStripes the example code given to us it seperated 8 colours into 8 equal lines spreading across the monitor, with that knowledge i thought it was able to manipulate the size of colours and the space they would take up i could basically draw.
+
 
 ### **Code Adaptation**
 Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
