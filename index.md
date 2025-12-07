@@ -30,8 +30,8 @@ Introduce your own design idea. Consider how complex/achievabble this might be o
 
 ### **Code Adaptation**
 Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
-<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/IMG_6203.png">
-<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/IMG_6204.png">
+<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/IMG_6203.HEIC">
+<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/IMG_6204.HEIC">
 
 
 
