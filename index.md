@@ -17,7 +17,9 @@ In Vivado I added Testbench,ColourStripes,Bassy3_Master.xdc file to my project, 
 
 ### **Template Code**
 Outline the structure and design of the Verilog code templates you were given. What do they do? Include reference to how a VGA interface works. Guideline: 2/3 short paragraphs, consider including screenshot(s).
-I was given two template Verilog code ColourStripes and ColourCycle, I have a screenshot of what ColourStripes outputs from the board but i forgot to get one for colourcycle,Colourstripes creates 8 colours 8 rows of colours that take up the whole monitor by expanding and changing the colours used in stripes i was able to create the flag of my choice. The VGA interface operates by generating precise sync pulses along with rgb colour signals, the pixels are scanned from left to right and from top to bottom asserting hsync at the end of each line and vsync at the end of each frame
+I was given two template Verilog code ColourStripes and ColourCycle,
+
+I have a screenshot of what ColourStripes outputs from the board but i forgot to get one for colourcycle,Colourstripes creates 8 colours 8 rows of colours that take up the whole monitor by expanding and changing the colours used in stripes I was able to create the flag of my choice. The VGA interface operates by generating precise sync pulses along with rgb colour signals, the pixels are scanned from left to right and from top to bottom asserting hsync at the end of each line and vsync at the end of each frame
 
 ### **Demonstration**
 <img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125941.png">
