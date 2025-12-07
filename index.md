@@ -50,7 +50,7 @@ what this specific piece of code does it takes up the whole left hand side of th
 And with the other line i wanted it to take up the rest of the space on the monitor and change it to another colour to act as like a dummy flag to check if it would be possible to create flags with manipulating the pixel sizing and rgb values.
 
 
-<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125933.png
+<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125933.png">
 
 
 
