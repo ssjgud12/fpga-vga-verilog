@@ -31,8 +31,27 @@ In ColourStripes the example code given to us it seperated 8 colours into 8 equa
 
 ### **Code Adaptation**
 Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
-<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/IMG_6203.HEIC">
-<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/IMG_6204.HEIC">
+
+To change the template code to display a different image first i messed around with the size and colour, the amount of space being taken up by a colour was determined by this line of code
+
+ if(col >= 11'd0 && col <11'd320) begin //black
+      red_next   <= 4'b0000;
+      green_next <= 4'b0000;
+      blue_next  <= 4'b0000;
+   end
+what this specific piece of code does it takes up the whole left hand side of the monitor, 320 pixels and the rgb values all set to zero gives the colour black,
+
+ else if(col >= 11'd320 && col < 11'd640) begin  //yellow
+     red_next   <= 4'b1111;
+      green_next <= 4'b1111;
+      blue_next  <= 4'b0000;
+   end
+
+And with the other line i wanted it to take up the rest of the space on the monitor and change it to another colour to act as like a dummy flag to check if it would be possible to create flags with manipulating the pixel sizing and rgb values.
+
+
+<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot 2025-12-07 125933.png
+
 
 
 
