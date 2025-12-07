@@ -11,7 +11,7 @@ Hello my name is Alvin Olayemi im a third year software and electronic student a
 ### **Project Set-Up**
 In Vivado I added Testbench,ColourStripes,Bassy3_Master.xdc file to my project, these files were given by our Lecturer to Serve as a starting point in the project. The first step was fixing the code in Testbench which still used the previous example code (ColourCycle), update that adding a 25Mhz clock signal run synthesis and implementation.
 
-<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/Screenshot%202025-12-02%20143608.png">
+<img src="https://raw.githubusercontent.com/ssjgud12/fpga-vga-verilog/main/docs/assets/images/Screenshot%202025-12-02%20143608.png">
 
 
 
