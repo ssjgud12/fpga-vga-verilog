@@ -58,7 +58,7 @@ And with the other line i wanted it to take up the rest of the space on the moni
 
 
 ### **Simulation**
-Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
+
 
 The simulation is run by execuiting a testbench that drives clk,rst then looking at signals,in simulation the horizontal and vertical sync (hsync,vsync) remain stable while row[10:0],col[10:0] The signals also show vid_on active during the high display region and rgb outputs changing only when the current pixel is inside the visible area.
 
